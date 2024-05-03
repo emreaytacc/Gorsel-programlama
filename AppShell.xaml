@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Emre.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:Emre.Sayfalar"
+    xmlns:local="clr-namespace:Emre"
+    Shell.FlyoutBehavior="Flyout"
+    BackgroundColor="Grey"
+    FlyoutBackgroundColor="Aqua"
+    Title="Emre">
+
+     <ShellContent
+        Icon="house.png"
+        Title="Anasayfa"
+        ContentTemplate="{DataTemplate pages:Anasayfa}"
+        Route="Anasayfa" />
+
+    <ShellContent
+        Icon="atm_card.png"
+        Title="Kredi Hesaplama"
+        ContentTemplate="{DataTemplate pages:KrediHesaplama}"
+        Route="KrediHesaplama" />
+    <ShellContent
+        Icon="body_mass_index.png"
+        Title="Vucut Kitle Indeksi Hesaplama "
+        ContentTemplate="{DataTemplate pages:VucutKitleIndeksi}"
+        Route="VucutKitleIndeksi" />
+
+    <ShellContent
+        Icon="color_wheel.png"
+        Title="Renk Secici"
+        ContentTemplate="{DataTemplate pages:RenkSecici}"
+        Route="RenkSecici" />
+
+    <ShellContent
+        Icon="complete_task.png"
+        Title="Yapilacaklar "
+        ContentTemplate="{DataTemplate pages:Yapilacaklar}"
+        Route="Yapilacaklar" />
+</Shell>

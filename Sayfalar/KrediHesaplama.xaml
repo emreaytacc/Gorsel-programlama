@@ -1,0 +1,40 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Emre.Sayfalar.KrediHesaplama">
+
+    <StackLayout Padding="20">
+        <Label Text="Kredi Hesaplama" FontSize="24" HorizontalOptions="Center" Margin="0,20,0,40" />
+
+        <Picker Title="Kredi Türü" x:Name="pickerKrediTuru">
+            <Picker.Items>
+                <x:String>Ihtiyac Kredisi</x:String>
+                <x:String>Konut Kredisi</x:String>
+                <x:String>Tasit Kredisi</x:String>
+                <x:String>Ticari Kredisi</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Kredi Tutarı (TL):" VerticalOptions="Center" WidthRequest="150" />
+            <Entry Placeholder="Örn: 10000" Keyboard="Numeric" x:Name="txtKrediTutari" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Faiz Oranı (%):" VerticalOptions="Center" WidthRequest="150" />
+            <Entry Placeholder="Örn: 1.2" Keyboard="Numeric" x:Name="txtFaizOrani" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Vade (Ay):" VerticalOptions="Center" WidthRequest="150" />
+            <Entry Placeholder="Örn: 12" Keyboard="Numeric" x:Name="txtVade" />
+        </StackLayout>
+
+        <Button Text="Hesapla" Clicked="Hesapla_Clicked" HorizontalOptions="Center" Margin="0,20" />
+
+        <StackLayout>
+            <Label Text="Aylık Taksit:" x:Name="lblAylikTaksit" FontSize="20" />
+            <Label Text="Toplam Ödeme:" x:Name="lblToplamOdeme" FontSize="20" />
+            <Label Text="Toplam Faiz:" x:Name="lblToplamFaiz" FontSize="20" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

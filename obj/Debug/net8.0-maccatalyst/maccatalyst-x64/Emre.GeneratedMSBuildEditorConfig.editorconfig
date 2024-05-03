@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Emre
+build_property.ProjectDir = C:\Users\Baran\Desktop\Emre Odev\Deneme\Emre\Emre\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Baran/Desktop/Emre Odev/Deneme/Emre/Emre/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Emre.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Baran/Desktop/Emre Odev/Deneme/Emre/Emre/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Emre.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Baran/Desktop/Emre Odev/Deneme/Emre/Emre/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Emre.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Baran/Desktop/Emre Odev/Deneme/Emre/Emre/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Emre.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Baran/Desktop/Emre Odev/Deneme/Emre/Emre/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Emre.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Baran/Desktop/Emre Odev/Deneme/Emre/Emre/Sayfalar/Anasayfa.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Emre.Sayfalar.Anasayfa.xaml
+build_metadata.AdditionalFiles.TargetPath = Sayfalar\Anasayfa.xaml
+build_metadata.AdditionalFiles.RelativePath = Sayfalar\Anasayfa.xaml
+
+[C:/Users/Baran/Desktop/Emre Odev/Deneme/Emre/Emre/Sayfalar/KrediHesaplama.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Emre.Sayfalar.KrediHesaplama.xaml
+build_metadata.AdditionalFiles.TargetPath = Sayfalar\KrediHesaplama.xaml
+build_metadata.AdditionalFiles.RelativePath = Sayfalar\KrediHesaplama.xaml
+
+[C:/Users/Baran/Desktop/Emre Odev/Deneme/Emre/Emre/Sayfalar/RenkSecici.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Emre.Sayfalar.RenkSecici.xaml
+build_metadata.AdditionalFiles.TargetPath = Sayfalar\RenkSecici.xaml
+build_metadata.AdditionalFiles.RelativePath = Sayfalar\RenkSecici.xaml
+
+[C:/Users/Baran/Desktop/Emre Odev/Deneme/Emre/Emre/Sayfalar/VucutKitleIndeksi.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Emre.Sayfalar.VucutKitleIndeksi.xaml
+build_metadata.AdditionalFiles.TargetPath = Sayfalar\VucutKitleIndeksi.xaml
+build_metadata.AdditionalFiles.RelativePath = Sayfalar\VucutKitleIndeksi.xaml
+
+[C:/Users/Baran/Desktop/Emre Odev/Deneme/Emre/Emre/Sayfalar/Yapilacaklar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Emre.Sayfalar.Yapilacaklar.xaml
+build_metadata.AdditionalFiles.TargetPath = Sayfalar\Yapilacaklar.xaml
+build_metadata.AdditionalFiles.RelativePath = Sayfalar\Yapilacaklar.xaml
